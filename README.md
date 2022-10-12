@@ -13,6 +13,12 @@ boss直聘投递、关闭，一条龙服务的油猴脚本
 
 4. 去喝茶吧，接下来交给 TampermonkeyScript
 
+## notice
+
+因为要瞬间打开30个标签页，浏览器自动做了拦截，所以建议阻止拦截
+
+![image](https://user-images.githubusercontent.com/73089592/195337157-206c9470-7145-47f3-86c2-395141b6b4e1.png)
+
 
 
 ## 技术栈
