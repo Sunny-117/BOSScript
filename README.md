@@ -1,4 +1,4 @@
-# TampermonkeyScript-BOSS
+# BOSScript
 boss直聘投递、关闭，一条龙服务的油猴脚本
 
 事件原因，bug还很多，但是满足需求足足了
@@ -11,7 +11,7 @@ boss直聘投递、关闭，一条龙服务的油猴脚本
 
 3. 打开控制台，粘贴 index.js 里面的代码，会车
 
-4. 去喝茶吧，接下来交给 TampermonkeyScript
+4. 去喝茶吧，接下来交给 BOSScript
 
 
 
