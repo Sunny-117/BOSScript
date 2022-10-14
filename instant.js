@@ -57,6 +57,11 @@ const timer = setInterval(() => {
         window.close()
         return
     }
+    if(leftTitle){
+        clearInterval(timer)
+        window.close()
+        return;
+    }
     if (textBtn.innerText === '继续沟通') {
         console.log('玩事了')
         clearInterval(timer)
