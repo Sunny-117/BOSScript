@@ -64,6 +64,12 @@ const timer = setInterval(() => {
         window.close()
         return;
     }
+    /**
+     * 
+     * 沟通数量到了上限了
+     * TODO：需要自动tab，但是需要让用户感知到
+     * 
+     */
     if (dialogContainer) {
         clearInterval(timer)
         window.close();
