@@ -67,4 +67,4 @@ const timer = setInterval(() => {
         clearInterval(timer)
         window.close()
     }
-}, 4000);
+}, 10);
