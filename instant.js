@@ -48,6 +48,8 @@ const timer = setInterval(() => {
     console.log('重新轮训')
     fetch()
     const textBtn = document.getElementsByClassName('btn-startchat')[0]
+    const leftTitle = document.getElementsByClassName('left-title')[0]
+    const dialogContainer = document.getElementsByClassName('dialog-container')[0]
     if (!textBtn && location.pathname === '/web/geek/job') {
         clearInterval(timer)
         console.log('是主页，不管他')
@@ -57,9 +59,14 @@ const timer = setInterval(() => {
         window.close()
         return
     }
-    if(leftTitle){
+    if (leftTitle) {
         clearInterval(timer)
         window.close()
+        return;
+    }
+    if (dialogContainer) {
+        clearInterval(timer)
+        window.close();
         return;
     }
     if (textBtn.innerText === '继续沟通') {
