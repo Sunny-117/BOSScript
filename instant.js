@@ -29,6 +29,9 @@
 
 // 定时器5s轮训一次，一旦有了跳出轮训，没有继续，10次后结束提示错误
 
+(function() {
+    'use strict';
+
 function fetch() {
     const btn = document.getElementsByClassName('btn-container')[0]
     if (btn) {
@@ -53,23 +56,13 @@ const timer = setInterval(() => {
     if (!textBtn && location.pathname === '/web/geek/job') {
         clearInterval(timer)
         console.log('是主页，不管他')
-        return
+        return;
     }
-    if (location.pathname === '/web/geek/chat') {
-        window.close()
-        return
-    }
-    if (leftTitle) {
+    if(leftTitle){
         clearInterval(timer)
         window.close()
         return;
     }
-    /**
-     * 
-     * 沟通数量到了上限了
-     * TODO：需要自动tab，但是需要让用户感知到
-     * 
-     */
     if (dialogContainer) {
         clearInterval(timer)
         window.close();
@@ -80,4 +73,6 @@ const timer = setInterval(() => {
         clearInterval(timer)
         window.close()
     }
-}, 500);
+}, 1000);
+
+})();
