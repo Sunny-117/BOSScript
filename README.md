@@ -10,7 +10,7 @@ boss直聘投递、关闭，一条龙服务的油猴脚本
 
 2. 打开 https://www.zhipin.com/web/geek/job?query=%E5%89%8D%E7%AB%AF&city=101020100&experience=102
 
-3. 打开控制台，粘贴 index.js 里面的代码，会车
+3. 左边会出现批量投递按钮，点击按钮批量投递
 
 4. 去喝茶吧，接下来交给 BOSScript
 
