@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         boss直聘批量投递工具
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  boss直聘批量投递
+// @author       solenya
+// @copyright       2015-2020, AC
+// @require      http://code.jquery.com/jquery-2.1.1.min.js
+// @match        https://www.zhipin.com/*
+// @grant        GM_xmlhttpRequest
+// ==/UserScript==
 
 // js跨浏览器标签页通信 storage
 // iframe
