@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  boss直聘批量投递
-// @author       solenya
+// @author       solenya jesslynwong
 // @copyright       2015-2020, AC
 // @require      http://code.jquery.com/jquery-2.1.1.min.js
 // @match        https://www.zhipin.com/*
