@@ -16,7 +16,7 @@
 // 写一个浏览器脚本，把以上三行代码放进去就行
 
 
-// 定时器5s轮训一次，一旦有了跳出轮训，没有继续，10次后结束提示错误
+// 定时器5s轮询一次，一旦有了跳出轮询，没有继续，10次后结束提示错误
 
 (function () {
     'use strict';
@@ -70,7 +70,7 @@
     }
     fetch()
     const timer = setInterval(() => {
-        console.log('重新轮训')
+        console.log('重新轮询')
         fetch()
         const textBtn = document.getElementsByClassName('btn-startchat')[0]
         const leftTitle = document.getElementsByClassName('left-title')[0]
@@ -91,7 +91,7 @@
             return;
         }
         if (textBtn.innerText === '继续沟通') {
-            console.log('玩事了')
+            console.log('完事了')
             clearInterval(timer)
             window.close()
         }
